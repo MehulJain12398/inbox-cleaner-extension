@@ -37,7 +37,7 @@ const categorizeEmail = (email: EmailItem): string => {
 const Sidebar: React.FC = () => {
   const [visible, setVisible] = useState(true);
   const [selectedTab, setSelectedTab] = useState("All");
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [emails, setEmails] = useState<EmailItem[]>([]);
 

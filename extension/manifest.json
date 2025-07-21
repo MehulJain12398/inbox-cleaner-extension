@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Inbox Cleaner AI",
+  "version": "1.0",
+  "description": "Clean up your Gmail inbox intelligently.",
+  "permissions": ["scripting", "activeTab", "identity"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "oauth2": {
+    "client_id": "689204418544-kechdpkre1tkhb1gm39m3b77s7f5i251.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/gmail.modify"]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.html"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ],
+  "action": {
+    "default_title": "Inbox Cleaner AI"
+  }
+}
