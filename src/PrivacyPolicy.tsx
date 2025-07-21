@@ -5,9 +5,9 @@ const PrivacyPolicy = () => {
   return (
     <div style={styles.container}>
       <h1>Privacy Policy</h1>
-      <p>Effective Date: July 21, 2025</p>
+      <p>Effective Date: July 22, 2025</p>
       <p>
-        Inbox Cleaner AI respects your privacy. We do not store or share your email content.
+        InboxSweep AI respects your privacy. We do not store or share your email content.
         All data is processed with your consent and only for features you explicitly request.
       </p>
       <p>
@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
       </p>
       <p>
         If you have any questions or concerns, please contact us at:{" "}
-        <a href="mailto:support@inboxcleaner.ai">support@inboxcleaner.ai</a>
+        <a href="mailto:mehuljain1203@gmail.com">mehuljain1203@gmail.com</a>
       </p>
     </div>
   );
