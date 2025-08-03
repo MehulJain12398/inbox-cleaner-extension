@@ -5,9 +5,9 @@ const TermsPolicy = () => {
   return (
     <div style={styles.container}>
       <h1>Terms of Service</h1>
-      <p>Effective Date: July 22, 2025</p>
+      <p>Effective Date: Aug 3, 2025</p>
       <p>
-        By using InboxSweep AI, you agree to use the extension in accordance with applicable laws
+        By using Inbox Cleaner AI, you agree to use the extension in accordance with applicable laws
         and not for spamming, scraping, or unauthorized data collection.
       </p>
       <p>
