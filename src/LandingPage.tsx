@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <div style={styles.container}>
-      <h1>📬 InboxSweep AI</h1>
+      <h1>📬 Inbox Cleaner AI</h1>
       <p>Your smart email assistant to declutter your inbox with one click.</p>
       <p>
         <Link to="/privacy" style={styles.link}>Privacy Policy</Link> |{" "}
