@@ -8,8 +8,8 @@ const LandingPage = () => {
       <h1>📬 Inbox Cleaner AI</h1>
       <p>Your smart email assistant to declutter your inbox with one click.</p>
       <p>
-        <Link to="/privacy" style={styles.link}>Privacy Policy</Link> |{" "}
-        <Link to="/terms" style={styles.link}>Terms of Service</Link>
+        <a href="/privacy" style={styles.link}>Privacy Policy</a> |{" "}
+        <a href="/terms" style={styles.link}>Terms of Service</a>
       </p>
     </div>
   );
